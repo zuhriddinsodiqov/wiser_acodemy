@@ -1,0 +1,103 @@
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/sinf-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border-radius: 20px; */
+}
+.overlay{
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+}
+.header .navigation {
+  width: 100%;
+  height: 10vh;
+  border: 1px solid blue;
+  border-radius: 50px;
+  color: white;
+}
+.header .navigation .navbar {
+  width: 100%;
+  height: 10vh;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.header .navigation .navbar .logo .color {
+  font-size: 1.5rem;
+  color: #07174a;
+  transition: all 0.5s linear; 
+  color: white;
+}
+.header .navigation .navbar .logo .fa-house{
+  transition: all 0.5s linear;
+  cursor: pointer;
+}
+.header .navigation .navbar .logo:hover  .fa-house{
+  color: yellow;
+
+}
+.header .navigation .navbar .nav .color:hover{
+  color: yellow;
+}
+.color{
+  color: #fff;
+}
+.header .navigation .navbar .logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header .navigation .navbar .nav .color {
+  transition: all 0.5s linear;
+  color:#fff;
+}
+.color{
+  font-size: 1.5rem;
+  color: #07174a;
+}
+.header .navigation .navbar .logo .color:hover {
+  color: yellow;
+  
+}
+.header .navigation .navbar .nav2 .fa-search{
+  transition: all 0.5s linear;
+  cursor: pointer;
+}
+.header .navigation .navbar .nav2 .fa-search:hover{
+  color: red;
+}
+.banner{
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+.banner .container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.header .banner .box{
+  margin: 0 auto;
+}
+.header .banner .box a{
+  font-size: 1.5rem;
+  transition: all 0.5s linear;
+  color: #fff;
+  transition: all 0.5s linear;
+}
+.header .banner .box a:hover{
+  color: #e0e0e0;
+text-shadow:  15px 15px 15px rgb(255, 136, 0),
+            -15px -15px 10px #ffffff;
+}
